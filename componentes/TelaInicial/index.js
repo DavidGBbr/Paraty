@@ -1,27 +1,28 @@
 import React from 'react';
 import { View, Text, Image, Button } from 'react-native';
-
+import styles from './styles';
 import Capa from '../../assets/01.png'
 
 export default function TelaInicial(props) {
  return (
-   <View>
+   <View style={styles.container}>
 
-    <View>
-      <Text>Paraty</Text>
-      <Text>Saiba o que visitar em paraty</Text>
-      <Image source={Capa}/>
+    <View style={styles.card}>
 
-      <View>
-        <Button title="Ver Restaurantes" onPress={()=>{props.navigation.navigate('Tela Restaurantes')}}/>
+      <Text style={styles.title}>Paraty</Text>
+      <Text style={styles.description}>Saiba o que visitar em paraty</Text>
+      <Image source={Capa} style={styles.img}/>
+
+      <View style={styles.boxButton}>
+        <Button style={styles.button} title="Ver Restaurantes" onPress={()=>{props.navigation.navigate('Tela Restaurantes')}}/>
       </View>
 
-      <View>
-        <Button title="Ver Passeios" onPress={()=>{props.navigation.navigate('Tela Passeios')}}/>
+      <View style={styles.boxButton}>
+        <Button style={styles.button} title="Ver Passeios" onPress={()=>{props.navigation.navigate('Tela Passeios')}}/>
       </View>
-      
-      <View>
-        <Button title="Ver Hospedagem" onPress={()=>{props.navigation.navigate('Tela Hospedagem')}}/>
+
+      <View style={styles.boxButton}>
+        <Button style={styles.button} title="Ver Hospedagem" onPress={()=>{props.navigation.navigate('Tela Hospedagem')}}/>
       </View>
 
     </View>
