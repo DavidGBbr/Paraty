@@ -30,6 +30,13 @@ const styles = StyleSheet.create({
         borderWidth:1,
     },
 
+    cardTitle:{
+        fontSize:16,
+        fontWeight:'bold',
+        textAlign:'center',
+        marginBottom:5,
+    },
+
     img:{
         width:300,
         height:80,

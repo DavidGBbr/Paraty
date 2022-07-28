@@ -15,17 +15,17 @@ export default function TelaPasseios() {
     Veja dois exemplos:</Text>
 
     <View style={styles.card}>
-      <Text cardTitle>Tirolesa</Text>
+      <Text style={styles.cardTitle}>Tirolesa</Text>
       <Image source={imgPasseio1} style={styles.img}/>
     </View>
 
     <View style={styles.card}>
-      <Text cardTitle>Rafting</Text>
+      <Text style={styles.cardTitle}>Rafting</Text>
       <Image source={imgPasseio2} style={styles.img}/>
     </View>
 
     <View style={styles.card}>
-      <Text cardTitle>Conoagem no mangue</Text>
+      <Text style={styles.cardTitle}>Conoagem no mangue</Text>
       <Image source={imgPasseio3} style={styles.img}/>
     </View>
 
