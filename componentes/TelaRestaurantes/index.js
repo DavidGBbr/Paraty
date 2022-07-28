@@ -8,6 +8,7 @@ import ImgRestaurante3 from '../../assets/restaurante03.png';
 export default function TelaRestaurantes() {
  return (
   <View style={styles.container}>
+    
     <Text style={styles.title}>Bares e Restaurantes</Text>
     <Text style={styles.description}>O prazer da boa comida você encontra em Paraty. Com inúmeras opções de restaurantes, a
     cidade oferece o melhor da culinária internacional, juntamente à saborosa cozinha caiçara. 
