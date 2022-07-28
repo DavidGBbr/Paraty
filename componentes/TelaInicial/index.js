@@ -14,15 +14,25 @@ export default function TelaInicial(props) {
       <Image source={Capa} style={styles.img}/>
 
       <View style={styles.boxButton}>
-        <Button style={styles.button} title="Ver Restaurantes" onPress={()=>{props.navigation.navigate('Tela Restaurantes')}}/>
+        <Button style={styles.button} 
+        title="Ver Restaurantes" 
+        onPress={()=>{props.navigation.navigate('Tela Restaurantes')}}
+        color="#372d00"/>
       </View>
 
       <View style={styles.boxButton}>
-        <Button style={styles.button} title="Ver Passeios" onPress={()=>{props.navigation.navigate('Tela Passeios')}}/>
+        <Button style={styles.button} 
+        title="Ver Passeios" 
+        onPress={()=>{props.navigation.navigate('Tela Passeios')}}
+        color="#372d00"/>
       </View>
 
       <View style={styles.boxButton}>
-        <Button style={styles.button} title="Ver Hospedagem" onPress={()=>{props.navigation.navigate('Tela Hospedagem')}}/>
+        <Button 
+        style={styles.button} 
+        title="Ver Hospedagem" 
+        onPress={()=>{props.navigation.navigate('Tela Hospedagem')}}
+        color="#372d00"/>
       </View>
 
     </View>
